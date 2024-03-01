@@ -33,7 +33,7 @@ header ul li{
 }
 header, main, footer{
 
-    width: 1120px;
+    width: 80%;
     margin: 0 auto;
 }
 
