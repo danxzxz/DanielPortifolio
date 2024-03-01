@@ -1,0 +1,68 @@
+
+    body
+{
+    color: white;
+    background: #836FFF;
+    font-family: "Roboto", sans-serif;
+}
+
+    h1
+    {
+        font-size: 60px;
+        line-height: 45px;
+    }
+
+        h1 strong
+    {
+        color: purple;     
+    }
+
+    header ul li a{
+    color: pink;
+    text-decoration: none ;
+    margin-right: 15px;
+}
+
+header ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+header ul li{
+    display: inline;
+}
+header, main, footer{
+
+    width: 1120px;
+    margin: 0 auto;
+}
+
+headre{
+
+    background: purple;
+}
+footer{
+    background: #836fff;
+}
+
+
+/* Estilização do layout*/
+
+section {
+    box-sizing: border-box;
+    float: left;
+}
+
+.secao-conteudo{
+
+    width: 80%;
+
+}
+.secao-imagem{
+    width: 20%
+}
+footer{
+
+    float:left;
+    height: 30px;
+}
