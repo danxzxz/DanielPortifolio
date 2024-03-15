@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* layout */
+
+
+body {
+
+    background-color: #C4D7B2;
+
+}
+
+header {
+    text-align: center;
+    background-color: #A0C49D;
+    padding: 30px 0;
+    /* top e bottom, left e right */
+
+}
+
+main .container {
+
+    background: #E1ECC8;
+    padding: 5px;
+    min-height: calc(100vh - 78px - 78px);
+
+
+}
+
+footer {
+
+    background-color: #A0C49D;
+    padding: 0 auto;
+    /* top  right  bottom  left*/
+    text-align: center;
+
+}
+
+.container {
+
+    width: 80%;
+    margin: 0 auto 0 auto;
+    /* top  right  bottom  left*/
+
+}
+
+/* Colunas da pagina inical */
+
+aside{
+
+    width: 20%;
+    background-color: #B0D9B1;
+    float: left;
+    min-height: calc(100vh - 200px);
+
+
+}
+
+section{
+    text-align: center;
+    width: 80%;
+    background: #79AC78;
+    float: left;
+    padding: 10px;
+}
+
+.project{
+
+    width: 33.33%;
+    border: solid 1px black;
+    height: 180px;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+}
+.project img{
+    
+    max-width: 100%;
+}
